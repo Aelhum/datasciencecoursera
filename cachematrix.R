@@ -3,6 +3,10 @@
 
 ## Write a short comment describing this function
 
+## This function takes an inversible matrix and will return a list which includes 
+## Values of the matrix and it's inverse
+
+
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
@@ -20,6 +24,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## This function finds the cachedinverse of the inversible matrix 
+## or solves for the inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
